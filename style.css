@@ -1,0 +1,96 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #444;
+    color: #f2f2f2;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  header p {
+    font-size: 18px;
+  }
+
+  /* Layout Container */
+  .layout {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  /* Aside (Sidebar) */
+  aside {
+    flex: 0 0 30%;
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  /* Top Navigation Bar */
+  nav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav a:hover {
+    background-color: #575757;
+    color: #fff;
+  }
+  
+  /* Main content area */
+  main {
+    flex: 0 0 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  main section {
+    /* Two-column layout for text */
+    column-count: 2;
+    column-gap: 30px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #333;
+    color: #f2f2f2;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
