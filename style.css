@@ -8,14 +8,14 @@
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #e8f1ec;
+    color: #1e312d;
   }
   
   /* Header Section */
   header {
-    background-color: #444;
-    color: #f2f2f2;
+    background-color: #3c5b53;
+    color: #eef3eb;
     padding: 30px 20px;
     text-align: center;
   }
@@ -23,10 +23,12 @@
   header h1 {
     font-size: 36px;
     margin-bottom: 10px;
+    color: #d33a3a;
   }
 
   header p {
     font-size: 18px;
+    color: #d9e0d6;
   }
 
   /* Layout Container */
@@ -41,14 +43,20 @@
   /* Aside (Sidebar) */
   aside {
     flex: 0 0 30%;
-    background-color: #ddd;
+    background-color: #e7edd3;
     padding: 20px;
     border-radius: 8px;
+    color: #22342f;
+  }
+
+  aside h1,
+  aside b {
+    color: #2e5f4f;
   }
 
   /* Top Navigation Bar */
   nav {
-    background-color: #333;
+    background-color: #2c4d49;
     overflow: hidden;
     padding: 0 20px;
   }
@@ -56,7 +64,7 @@
   nav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #f4f5ef;
     text-align: center;
     padding: 16px 20px;
     text-decoration: none;
@@ -64,16 +72,22 @@
   }
   
   nav a:hover {
-    background-color: #575757;
+    background-color: #c33535;
     color: #fff;
   }
   
   /* Main content area */
   main {
     flex: 0 0 70%;
-    background-color: #fff;
+    background-color: #eef6f1;
     padding: 20px;
     border-radius: 8px;
+    color: #1d2e29;
+  }
+
+  main h1,
+  main b {
+    color: #b92626;
   }
 
   main section {
@@ -87,8 +101,8 @@
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-    background-color: #333;
-    color: #f2f2f2;
+    background-color: #2c4d49;
+    color: #eef3eb;
     position: relative;
     bottom: 0;
     width: 100%;
