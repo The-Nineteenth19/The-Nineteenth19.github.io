@@ -8,14 +8,14 @@
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #d8ece6;
-    color: #4d5b2b;
+    background-color: #d3d9d4;
+    color: #4b533c;
   }
   
   /* Header Section */
   header {
-    background-color: #9a3333;
-    color: #e8f2a8;
+    background-color: #8b4e4e;
+    color: #d8deaa;
     padding: 30px 20px;
     text-align: center;
   }
@@ -23,12 +23,12 @@
   header h1 {
     font-size: 36px;
     margin-bottom: 10px;
-    color: #d7e88d;
+    color: #c9d39b;
   }
 
   header p {
     font-size: 18px;
-    color: #e8f2a8;
+    color: #d8deaa;
   }
 
   /* Layout Container */
@@ -43,20 +43,20 @@
   /* Aside (Sidebar) */
   aside {
     flex: 0 0 30%;
-    background-color: #a4cfbc;
+    background-color: #99b3a2;
     padding: 20px;
     border-radius: 8px;
-    color: #31421f;
+    color: #36472d;
   }
 
   aside h1,
   aside b {
-    color: #b82626;
+    color: #994c4c;
   }
 
   /* Top Navigation Bar */
   nav {
-    background-color: #8a2323;
+    background-color: #734343;
     overflow: hidden;
     padding: 0 20px;
   }
@@ -64,7 +64,7 @@
   nav a {
     float: left;
     display: block;
-    color: #f0f4c2;
+    color: #d7ddb1;
     text-align: center;
     padding: 16px 20px;
     text-decoration: none;
@@ -72,22 +72,22 @@
   }
   
   nav a:hover {
-    background-color: #b82626;
-    color: #f6f8c8;
+    background-color: #8a4a4a;
+    color: #e0e4b4;
   }
   
   /* Main content area */
   main {
     flex: 0 0 70%;
-    background-color: #88b8a5;
+    background-color: #7c9c8d;
     padding: 20px;
     border-radius: 8px;
-    color: #3c4a20;
+    color: #3f4b36;
   }
 
   main h1,
   main b {
-    color: #b82626;
+    color: #984d4d;
   }
 
   main section {
@@ -101,8 +101,8 @@
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-    background-color: #5b8c7c;
-    color: #eef6c4;
+    background-color: #678077;
+    color: #dfe3b5;
     position: relative;
     bottom: 0;
     width: 100%;
